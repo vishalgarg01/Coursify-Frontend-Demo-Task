@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Coursify</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/main.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#"> Live classes  </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Video library </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Courses </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Book </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Board </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Exam </a> </li>
+                </ul>
+                <span class="navbar-text">
+                    <span class="fa fa-sign-in" id="login"> Login</span> 
+                </span>
+            </div>
+        </div>
+    </nav>
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login </h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class ="jumbotron">
+        <div class ="container">
+            <div class ="row row-header">
+                <div class="col-12 col-sm-5">
+                    <h1><b>Solve your doubts in your  language.</b></h1><br><br>
+                    <button type="button" class="btn   btn-danger">
+                        <i class="fa fa-pencil"></i> Ask your doubt now</button>
+                </div>
+                <div class="col-12 col-sm-7 ">
+                    <img src="img/logo1.png" class="img-fluid float-right " >
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12 col-sm-6">
+                <h3><b>solve your doubts faster.</b></h3><br>
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center" src="img/img2.png" width="80" >
+                    <div class="media-body">
+                        <h4>Accessible everywhere</h4>
+                        <p>Access to quality education anytime</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center" src="img/img3.png" width="80" >
+                    <div class="media-body">
+                        <h4>1 million+ videos</h4>
+                        <p>Unlimited access to video solutions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <img src="img/img1.png" class="img-fluid float-right " > 
+            </div>
+        </div>
+        <div class="row row-c1 d-flex justify-content-center">
+            <h1 class="text-primary font-weight-bold">LIVE  </h1> 
+            <h1 class="font-weight-bold">&nbsp; classes</h1>
+        </div>  
+        <div class="row row-content d-flex justify-content-center">
+            <div class="col-12 col-sm-6">
+                <img src="img/img4.png" class="img-fluid float-left " > 
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center" src="img/img2.png" width="80" >
+                    <div class="media-body">
+                        <h4>Accessible everywhere</h4>
+                        <p>Access to quality education anytime</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center" src="img/img6.png" width="80" >
+                    <div class="media-body">
+                        <h4>Expert teachers</h4>
+                        <p>Unlimited access to video solutions</p>
+                    </div>
+                </div>
+                <div class="media mt-2">
+                    <img class="d-flex mr-3 align-self-center" src="img/img5.png" width="80" >
+                    <div class="media-body">
+                        <h4>Interactive sessions</h4>
+                        <p>Small groups for maximum student-teacher interaction</p>
+                    </div>
+                </div>
+            </div>
+            <div class ="row mt-5 d-flex justify-content-center">
+                <div class="col-12 col-sm-8">
+                    <h3 class="text-primary font-weight-bold">FIRST CLASS FREE</h3>
+                </div>
+                <div class="col-12 col-sm-5">
+                <button type="button" class="btn btn-danger">Book a class now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-c1 justify-content-center">
+            <h1 class="font-weight-bold">Parents and students love us </h1>
+        </div>
+        <div class="row mt-4 mb-3">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="media">
+                                <img class="d-flex mr-3 align-self-center" src="img/img7.png" width="200" >
+                                <div class="carousel-caption">
+                                    <div class="media-body ">
+                                        <h3 class="d-none d-sm-block text-primary font-weight-bold">“My son is so excited to learn coding. Everything from the teacher, to the platform, to the classes is top notch! Great to see him learn and grow every single day!”</h3>
+                                        <p class=" text-primary font-weight-bold mt-4">Madhu Kedia</p>
+                                        <p class=" text-primary font-weight-bold">Mother of Aryaman, Class 8</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="media">
+                                <img class="d-flex mr-3 align-self-center" src="img/img8.png" width="200" >
+                                <div class="carousel-caption">
+                                    <div class="media-body ">
+                                        <h3 class="d-none d-sm-block text-primary font-weight-bold">“It’s been 3 months since I enrolled my daughter in English with Coursify, and now she speaks in English only – and she sounds just so confident!”</h3>
+                                        <p class=" text-primary font-weight-bold mt-4">kashish singh</p>
+                                        <p class=" text-primary font-weight-bold">Mother of sneha, Class 10</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="media">
+                                <img class="d-flex mr-3 align-self-center " src="img/img7.png" width="200" >
+                                <div class="carousel-caption">
+                                    <div class="media-body ">
+                                        <h3 class="d-none d-sm-block text-primary font-weight-bold">“I knew my daughter had a knack for Mathematics. Lido brought it out in her through creative teaching and carefully thought-out activities!”</h3>
+                                        <p class=" text-primary font-weight-bold mt-4">Shreya gupta</p>
+                                        <p class=" text-primary font-weight-bold">Mother of tarushi, Class 9</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>                    
+                </div>
+            </div>                        
+        </div>
+        <div class="row justify-content-center">
+            <h1 class="text-primary mt-5 font-weight-bold">Explore the subjects with us!</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <span class="card" style="width: 16rem; height: 20rem;">
+                    <img class="card-img-top" width="50" height="260" src="./img/bio.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title ml-5">Biology</h5>
+                    </div>
+                </span>
+            </div>
+            <div class="col-12 col-sm-3">
+                <span class="card ml-3" style="width: 16rem; height: 20rem;" >
+                    <img class="card-img-top" width="50" height="260" src="./img/chem.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title ml-5">Chemistry</h5>
+                    </div>
+                </span>
+            </div>
+            <div class="col-12 col-sm-3">
+                <span class="card ml-3" style="width: 16rem; height: 20rem;" >
+                    <img class="card-img-top" width="50" height="260" src="./img/phy.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title ml-5">Physics</h5>
+                    </div>
+                </span>
+            </div>
+            <div class="col-12 col-sm-3">
+                <span class="card ml-3" style="width: 16rem; height: 20rem;" >
+                    <img class="card-img-top" width="50" height="260" src="./img/math.png" alt="Card image cap">
+                    <div class="card-body">
+                    <h3 class="card-title ml-5">Maths</h5>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row justify-content-center ">
+            <h1 class="text-primary mt-5 font-weight-bold">Free excess to 5000+ books</h1>
+            <p>Get access to virtual library of 5000+ text books and reference books of various stateboards and exams.</p>
+        </div>
+        <div class="row mb-5 ">
+            <span class="card" style="width: 12rem; height: 10rem;">
+                <img class="card-img-top" width="50" height="160" src="./img/book1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title ">HC Verma</h5>
+                </div>
+            </span>
+            <span class="card ml-3" style="width: 12rem; height: 10rem;" >
+                <img class="card-img-top" width="50" height="160" src="./img/book2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title ml-3">NCERT</h5>
+                </div>
+            </span>
+            <span class="card ml-3" style="width: 12rem; height: 10rem;" >
+                <img class="card-img-top" width="50" height="160" src="./img/book3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title ">KC Sinha</h5>
+                </div>
+            </span>
+            <span class="card ml-3" style="width: 12rem; height: 10rem;" >
+                <img class="card-img-top" width="50" height="160" src="./img/book4.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title ml-3">Maths</h5>
+                </div>
+            </span>
+            <span class="card ml-3" style="width: 12rem; height: 10rem;" >
+                <img class="card-img-top" width="50" height="160" src="./img/book5.png" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title">RD Sharma</h5>
+                </div>
+            </span>
+        </div>
+        <div class="row mt-5 center ">
+          <button class="btn btn-danger">Download app for free</button>  
+        </div>
+                          
+    </div>
+    
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
